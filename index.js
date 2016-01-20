@@ -1,6 +1,6 @@
 'use strict';
 
-const ranges = [
+var ranges = [
 	{hexrange: ['0000', '001F'], range: [0, 31], category: 'Control character'},
 	{hexrange: ['0020', '007F'], range: [32, 127], category: 'Basic Latin'},
 	{hexrange: ['0080', '00FF'], range: [128, 255], category: 'Latin-1 Supplement'},
@@ -264,14 +264,14 @@ module.exports = function (unicodestr, opts) {
 
 	opts = opts || {};
 
-	let category = 'unused';
+	var category = 'unused';
 
 	// find the unicode value
-	const value = parseInt(unicodestr.replace(/^U\+/i, ''), 16);
-	const len = ranges.length;
+	var value = parseInt(unicodestr.replace(/^U\+/i, ''), 16);
+	var len = ranges.length;
 
 	for (var i = 0; i < len; i++) {
-		const range = ranges[i];
+		var range = ranges[i];
 
 		if (value >= range.range[0] && value <= range.range[1]) {
 			category = range.category;
