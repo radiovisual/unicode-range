@@ -1,6 +1,6 @@
 {
   "name": "unicode-range",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Get the unicode category range of any unicode value. `U+3071` ➝ `Hiragana`",
   "license": "MIT",
   "repository": "radiovisual/unicode-range",
