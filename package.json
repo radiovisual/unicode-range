@@ -19,7 +19,21 @@
     "index.js"
   ],
   "keywords": [
-    ""
+    "unicode",
+    "range",
+    "category",
+    "name",
+    "character",
+    "set",
+    "value",
+    "glyph",
+    "family",
+    "collection",
+    "value",
+    "language",
+    "symbol"
+    "symbols",
+    "code"
   ],
   "dependencies": {},
   "devDependencies": {
