@@ -1,0 +1,29 @@
+{
+  "name": "unicode-range",
+  "version": "0.0.0",
+  "description": "Get the unicode category range of any unicode value. `U+3071` ➝ `Hiragana`",
+  "license": "MIT",
+  "repository": "radiovisual/unicode-range",
+  "author": {
+    "name": "Michael Wuergler",
+    "email": "wuergler@gmail.com",
+    "url": "numetriclabs.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "xo": "^0.12.1"
+  }
+}
