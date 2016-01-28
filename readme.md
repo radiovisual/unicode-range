@@ -4,8 +4,6 @@
 
 [![Build Status](https://travis-ci.org/radiovisual/unicode-range.svg?branch=master)](https://travis-ci.org/radiovisual/unicode-range)
 
-**Until I have exhaustive tests, this module is considered experimental. Use at your own risk, and please report any issues.**
-
 ## Install
 
 ```
@@ -29,6 +27,7 @@ unicodeRange('U+0462');
 #### input
 
 Type: `string`
+*Required*
 
 The unicode string you want to lookup
 
