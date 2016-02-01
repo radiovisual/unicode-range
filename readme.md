@@ -26,7 +26,7 @@ unicodeRange('U+0462');
 
 #### input
 
-Type: `string`
+Type: `string`  
 *Required*
 
 The unicode string you want to lookup
