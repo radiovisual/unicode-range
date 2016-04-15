@@ -26,10 +26,15 @@ unicodeRange('U+0462');
 
 #### input
 
+*Required*  
 Type: `string`  
-*Required*
 
 The unicode string you want to lookup
+
+
+## Related
+
+- [unicode-range-json](https://github.com/radiovisual/unicode-range-json) - A list of all the Unicode Range Names and their hex/decimal range numbers.
 
 ## License
 

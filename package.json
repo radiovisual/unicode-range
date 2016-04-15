@@ -1,6 +1,6 @@
 {
   "name": "unicode-range",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get the unicode category range of any unicode value. U+3071 ➝ Hiragana",
   "license": "MIT",
   "repository": "radiovisual/unicode-range",
@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "ava"
   },
   "files": [
     "index.js"
@@ -35,7 +35,9 @@
     "symbols",
     "code"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "unicode-range-json": "^0.0.2"
+  },
   "devDependencies": {
     "ava": "^0.8.0",
     "xo": "^0.12.1"
