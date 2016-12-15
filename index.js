@@ -1,12 +1,12 @@
 'use strict';
-var ranges = require('unicode-range-json')();
+var ranges = require('unicode-range-json');
 
 module.exports = function (unicodestr) {
 	if (typeof unicodestr !== 'string') {
-		throw new TypeError('Expected a string');
+		throw new TypeError('unicode-range expected a String');
 	}
 
-	var category = 'unused';
+	var category = 'Unassigned';
 
 	// find the unicode value
 	var value = parseInt(unicodestr.replace(/^U\+/i, ''), 16);

@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && tape test.js"
   },
   "files": [
     "index.js"
@@ -36,10 +36,11 @@
     "code"
   ],
   "dependencies": {
-    "unicode-range-json": "^0.0.2"
+    "unicode-range-json": "^1.0.1"
   },
   "devDependencies": {
-    "ava": "^0.8.0",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3",
     "xo": "^0.12.1"
   }
 }
