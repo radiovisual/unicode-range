@@ -18,7 +18,7 @@ test('allows shorthand', function (t) {
 	t.end();
 });
 
-test('accounts for Private-Use ranges', t => {
+test('accounts for Private-Use ranges', function (t) {
 	t.equal(fn('U+e000'), 'Private Use Area');
 	t.equal(fn('U+f8f7'), 'Private Use Area');
 	t.equal(fn('U+f8ff'), 'Private Use Area');
