@@ -103,6 +103,16 @@ const sortedRanges = [
 		category: 'Mandaic',
 	},
 	{
+		start: 2144,
+		end: 2159,
+		category: 'Syriac Supplement',
+	},
+	{
+		start: 2160,
+		end: 2207,
+		category: 'Arabic Extended-B',
+	},
+	{
 		start: 2208,
 		end: 2303,
 		category: 'Arabic Extended-A',
@@ -311,6 +321,16 @@ const sortedRanges = [
 		start: 7248,
 		end: 7295,
 		category: 'Ol Chiki',
+	},
+	{
+		start: 7296,
+		end: 7311,
+		category: 'Cyrillic Extended-C',
+	},
+	{
+		start: 7312,
+		end: 7359,
+		category: 'Georgian Extended',
 	},
 	{
 		start: 7360,
@@ -893,6 +913,11 @@ const sortedRanges = [
 		category: 'Osmanya',
 	},
 	{
+		start: 66_736,
+		end: 66_815,
+		category: 'Osage',
+	},
+	{
 		start: 66_816,
 		end: 66_863,
 		category: 'Elbasan',
@@ -903,9 +928,19 @@ const sortedRanges = [
 		category: 'Caucasian Albanian',
 	},
 	{
+		start: 66_928,
+		end: 67_007,
+		category: 'Vithkuqi',
+	},
+	{
 		start: 67_072,
 		end: 67_455,
 		category: 'Linear A',
+	},
+	{
+		start: 67_456,
+		end: 67_519,
+		category: 'Latin Extended-F',
 	},
 	{
 		start: 67_584,
@@ -1003,9 +1038,49 @@ const sortedRanges = [
 		category: 'Old Hungarian',
 	},
 	{
+		start: 68_864,
+		end: 68_927,
+		category: 'Hanifi Rohingya',
+	},
+	{
 		start: 69_216,
 		end: 69_247,
 		category: 'Rumi Numeral Symbols',
+	},
+	{
+		start: 69_248,
+		end: 69_311,
+		category: 'Yezidi',
+	},
+	{
+		start: 69_312,
+		end: 69_375,
+		category: 'Arabic Extended-C',
+	},
+	{
+		start: 69_376,
+		end: 69_423,
+		category: 'Old Sogdian',
+	},
+	{
+		start: 69_424,
+		end: 69_487,
+		category: 'Sogdian',
+	},
+	{
+		start: 69_488,
+		end: 69_551,
+		category: 'Old Uyghur',
+	},
+	{
+		start: 69_552,
+		end: 69_599,
+		category: 'Chorasmian',
+	},
+	{
+		start: 69_600,
+		end: 69_631,
+		category: 'Elymaic',
 	},
 	{
 		start: 69_632,
@@ -1063,6 +1138,11 @@ const sortedRanges = [
 		category: 'Grantha',
 	},
 	{
+		start: 70_656,
+		end: 70_783,
+		category: 'Newa',
+	},
+	{
 		start: 70_784,
 		end: 70_879,
 		category: 'Tirhuta',
@@ -1078,14 +1158,24 @@ const sortedRanges = [
 		category: 'Modi',
 	},
 	{
+		start: 71_264,
+		end: 71_295,
+		category: 'Mongolian Supplement',
+	},
+	{
 		start: 71_296,
 		end: 71_375,
 		category: 'Takri',
 	},
 	{
 		start: 71_424,
-		end: 71_487,
+		end: 71_503,
 		category: 'Ahom',
+	},
+	{
+		start: 71_680,
+		end: 71_759,
+		category: 'Dogra',
 	},
 	{
 		start: 71_840,
@@ -1093,9 +1183,79 @@ const sortedRanges = [
 		category: 'Warang Citi',
 	},
 	{
+		start: 71_936,
+		end: 72_031,
+		category: 'Dives Akuru',
+	},
+	{
+		start: 72_096,
+		end: 72_191,
+		category: 'Nandinagari',
+	},
+	{
+		start: 72_192,
+		end: 72_271,
+		category: 'Zanabazar Square',
+	},
+	{
+		start: 72_272,
+		end: 72_367,
+		category: 'Soyombo',
+	},
+	{
+		start: 72_368,
+		end: 72_383,
+		category: 'Unified Canadian Aboriginal Syllabics Extended-A',
+	},
+	{
 		start: 72_384,
 		end: 72_447,
 		category: 'Pau Cin Hau',
+	},
+	{
+		start: 72_448,
+		end: 72_543,
+		category: 'Devanagari Extended-A',
+	},
+	{
+		start: 72_704,
+		end: 72_815,
+		category: 'Bhaiksuki',
+	},
+	{
+		start: 72_816,
+		end: 72_895,
+		category: 'Marchen',
+	},
+	{
+		start: 72_960,
+		end: 73_055,
+		category: 'Masaram Gondi',
+	},
+	{
+		start: 73_056,
+		end: 73_135,
+		category: 'Gunjala Gondi',
+	},
+	{
+		start: 73_440,
+		end: 73_471,
+		category: 'Makasar',
+	},
+	{
+		start: 73_472,
+		end: 73_567,
+		category: 'Kawi',
+	},
+	{
+		start: 73_648,
+		end: 73_663,
+		category: 'Lisu Supplement',
+	},
+	{
+		start: 73_664,
+		end: 73_727,
+		category: 'Tamil Supplement',
 	},
 	{
 		start: 73_728,
@@ -1113,9 +1273,19 @@ const sortedRanges = [
 		category: 'Early Dynastic Cuneiform',
 	},
 	{
+		start: 77_712,
+		end: 77_823,
+		category: 'Cypro-Minoan',
+	},
+	{
 		start: 77_824,
 		end: 78_895,
 		category: 'Egyptian Hieroglyphs',
+	},
+	{
+		start: 78_896,
+		end: 78_943,
+		category: 'Egyptian Hieroglyph Format Controls',
 	},
 	{
 		start: 82_944,
@@ -1133,6 +1303,11 @@ const sortedRanges = [
 		category: 'Mro',
 	},
 	{
+		start: 92_784,
+		end: 92_879,
+		category: 'Tangsa',
+	},
+	{
 		start: 92_880,
 		end: 92_927,
 		category: 'Bassa Vah',
@@ -1143,14 +1318,64 @@ const sortedRanges = [
 		category: 'Pahawh Hmong',
 	},
 	{
+		start: 93_760,
+		end: 93_855,
+		category: 'Medefaidrin',
+	},
+	{
 		start: 93_952,
 		end: 94_111,
 		category: 'Miao',
 	},
 	{
+		start: 94_176,
+		end: 94_207,
+		category: 'Ideographic Symbols and Punctuation',
+	},
+	{
+		start: 94_208,
+		end: 100_351,
+		category: 'Tangut',
+	},
+	{
+		start: 100_352,
+		end: 101_119,
+		category: 'Tangut Components',
+	},
+	{
+		start: 101_120,
+		end: 101_631,
+		category: 'Khitan Small Script',
+	},
+	{
+		start: 101_632,
+		end: 101_759,
+		category: 'Tangut Supplement',
+	},
+	{
+		start: 110_576,
+		end: 110_591,
+		category: 'Kana Extended-B',
+	},
+	{
 		start: 110_592,
 		end: 110_847,
 		category: 'Kana Supplement',
+	},
+	{
+		start: 110_848,
+		end: 110_895,
+		category: 'Kana Extended-A',
+	},
+	{
+		start: 110_896,
+		end: 110_959,
+		category: 'Small Kana Extension',
+	},
+	{
+		start: 110_960,
+		end: 111_359,
+		category: 'Nushu',
 	},
 	{
 		start: 113_664,
@@ -1161,6 +1386,11 @@ const sortedRanges = [
 		start: 113_824,
 		end: 113_839,
 		category: 'Shorthand Format Controls',
+	},
+	{
+		start: 118_528,
+		end: 118_735,
+		category: 'Znamenny Musical Notation',
 	},
 	{
 		start: 118_784,
@@ -1176,6 +1406,16 @@ const sortedRanges = [
 		start: 119_296,
 		end: 119_375,
 		category: 'Ancient Greek Musical Notation',
+	},
+	{
+		start: 119_488,
+		end: 119_519,
+		category: 'Kaktovik Numerals',
+	},
+	{
+		start: 119_520,
+		end: 119_551,
+		category: 'Mayan Numerals',
 	},
 	{
 		start: 119_552,
@@ -1198,9 +1438,64 @@ const sortedRanges = [
 		category: 'Sutton SignWriting',
 	},
 	{
+		start: 122_624,
+		end: 122_879,
+		category: 'Latin Extended-G',
+	},
+	{
+		start: 122_880,
+		end: 122_927,
+		category: 'Glagolitic Supplement',
+	},
+	{
+		start: 122_928,
+		end: 123_023,
+		category: 'Cyrillic Extended-D',
+	},
+	{
+		start: 123_136,
+		end: 123_215,
+		category: 'Nyiakeng Puachue Hmong',
+	},
+	{
+		start: 123_536,
+		end: 123_583,
+		category: 'Toto',
+	},
+	{
+		start: 123_584,
+		end: 123_647,
+		category: 'Wancho',
+	},
+	{
+		start: 124_112,
+		end: 124_159,
+		category: 'Nag Mundari',
+	},
+	{
+		start: 124_896,
+		end: 124_927,
+		category: 'Ethiopic Extended-B',
+	},
+	{
 		start: 124_928,
 		end: 125_151,
 		category: 'Mende Kikakui',
+	},
+	{
+		start: 125_184,
+		end: 125_279,
+		category: 'Adlam',
+	},
+	{
+		start: 126_064,
+		end: 126_143,
+		category: 'Indic Siyaq Numbers',
+	},
+	{
+		start: 126_208,
+		end: 126_287,
+		category: 'Ottoman Siyaq Numbers',
 	},
 	{
 		start: 126_464,
@@ -1273,13 +1568,83 @@ const sortedRanges = [
 		category: 'Supplemental Symbols and Pictographs',
 	},
 	{
+		start: 129_536,
+		end: 129_647,
+		category: 'Chess Symbols',
+	},
+	{
+		start: 129_648,
+		end: 129_791,
+		category: 'Symbols and Pictographs Extended-A',
+	},
+	{
+		start: 129_792,
+		end: 130_047,
+		category: 'Symbols for Legacy Computing',
+	},
+	{
+		start: 131_072,
+		end: 173_791,
+		category: 'CJK Unified Ideographs Extension B',
+	},
+	{
+		start: 173_824,
+		end: 177_983,
+		category: 'CJK Unified Ideographs Extension C',
+	},
+	{
+		start: 177_984,
+		end: 178_207,
+		category: 'CJK Unified Ideographs Extension D',
+	},
+	{
+		start: 178_208,
+		end: 183_983,
+		category: 'CJK Unified Ideographs Extension E',
+	},
+	{
+		start: 183_984,
+		end: 191_471,
+		category: 'CJK Unified Ideographs Extension F',
+	},
+	{
+		start: 191_472,
+		end: 192_095,
+		category: 'CJK Unified Ideographs Extension I',
+	},
+	{
+		start: 194_560,
+		end: 195_103,
+		category: 'CJK Compatibility Ideographs Supplement',
+	},
+	{
+		start: 196_608,
+		end: 201_551,
+		category: 'CJK Unified Ideographs Extension G',
+	},
+	{
+		start: 201_552,
+		end: 205_743,
+		category: 'CJK Unified Ideographs Extension H',
+	},
+	{
+		start: 917_504,
+		end: 917_631,
+		category: 'Tags',
+	},
+	{
+		start: 917_760,
+		end: 917_999,
+		category: 'Variation Selectors Supplement',
+	},
+	{
 		start: 983_040,
-		end: 1_048_573,
+		end: 1_048_575,
 		category: 'Supplemental Private Use Area-A',
 	},
 	{
 		start: 1_048_576,
-		end: 1_114_109,
+		end: 1_114_111,
 		category: 'Supplemental Private Use Area-B',
 	},
 ];
