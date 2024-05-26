@@ -1,4 +1,4 @@
-# unicode-range [![CI](https://github.com/radiovisual/unicode-range/actions/workflows/ci.yml/badge.svg)](https://github.com/radiovisual/unicode-range/actions/workflows/ci.yml)
+# unicode-range [![CI](https://github.com/radiovisual/unicode-range/actions/workflows/main.yml/badge.svg)](https://github.com/radiovisual/unicode-range/actions/workflows/main.yml)
 
 > Get the unicode category range of any unicode value. `U+3071` ➝ `Hiragana`
 
