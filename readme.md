@@ -1,8 +1,6 @@
-# unicode-range
+# unicode-range [![CI](https://github.com/radiovisual/unicode-range/actions/workflows/ci.yml/badge.svg)](https://github.com/radiovisual/unicode-range/actions/workflows/ci.yml)
 
 > Get the unicode category range of any unicode value. `U+3071` ➝ `Hiragana`
-
-[![Build Status](https://travis-ci.org/radiovisual/unicode-range.svg?branch=master)](https://travis-ci.org/radiovisual/unicode-range)
 
 ## Install
 
@@ -13,12 +11,11 @@ $ npm install --save unicode-range
 ## Usage
 
 ```js
-const unicodeRange = require('unicode-range');
+import unicodeRange from "unicode-range";
 
-unicodeRange('U+0462');
-//=> 'Cyrillic'
+unicodeRange("U+3071");
+//=> 'Hiragana'
 ```
-
 
 ## API
 
@@ -26,11 +23,17 @@ unicodeRange('U+0462');
 
 #### input
 
-*Required*  
-Type: `string`  
+_Required_  
+Type: `string`
 
 The unicode string you want to lookup
 
+## Auto-update Script
+
+Run `npm run update` which will generate a sorted list of unicode ranges in the file called "sorted-unicode-ranges.js".
+
+> [!IMPORTANT]
+> Remember to run the update script if/when you update the unicode-range-json depenendency.
 
 ## Related
 
@@ -38,4 +41,4 @@ The unicode string you want to lookup
 
 ## License
 
-MIT © [Michael Wuergler](http://numetriclabs.com)
+MIT © [Michael Wuergler](https://github.com/radiovisual)

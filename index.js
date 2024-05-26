@@ -1,24 +1,30 @@
-'use strict';
-var ranges = require('unicode-range-json');
+import {sortedRanges} from './sorted-unicode-ranges.js';
 
-module.exports = function (unicodestr) {
+function unicodeRange(unicodestr) {
 	if (typeof unicodestr !== 'string') {
-		throw new TypeError('unicode-range expected a String');
+		throw new TypeError('unicode-range expected a string');
 	}
 
-	var category = 'Unassigned';
+	const value = Number.parseInt(unicodestr.replace(/^u\+/i, ''), 16);
 
-	// find the unicode value
-	var value = parseInt(unicodestr.replace(/^U\+/i, ''), 16);
-	var len = ranges.length;
+	let left = 0;
+	let right = sortedRanges.length - 1;
 
-	for (var i = 0; i < len; i++) {
-		var range = ranges[i];
+	while (left <= right) {
+		const mid = Math.floor((left + right) / 2);
 
-		if (value >= range.range[0] && value <= range.range[1]) {
-			category = range.category;
-			break;
+		const range = sortedRanges[mid];
+
+		if (value < range.start) {
+			right = mid - 1;
+		} else if (value > range.end) {
+			left = mid + 1;
+		} else {
+			return range.category;
 		}
 	}
-	return category;
-};
+
+	return 'Unassigned';
+}
+
+export default unicodeRange;
