@@ -1,6 +1,4 @@
-# unicode-range
-
-[![CI](https://github.com/radiovisual/unicode-range/actions/workflows/ci.yml/badge.svg)](https://github.com/radiovisual/unicode-range/actions/workflows/ci.yml)
+# unicode-range [![CI](https://github.com/radiovisual/unicode-range/actions/workflows/ci.yml/badge.svg)](https://github.com/radiovisual/unicode-range/actions/workflows/ci.yml)
 
 > Get the unicode category range of any unicode value. `U+3071` ➝ `Hiragana`
 
@@ -35,7 +33,7 @@ The unicode string you want to lookup
 Run `npm run update` which will generate a sorted list of unicode ranges in the file called "sorted-unicode-ranges.js".
 
 > [!IMPORTANT]
-> you will want to run the update script if/when you update the unicode-range-json depenendency. This is to ensure that the auto-generated sorted list matches the updated unicode ranges.
+> Remember to run the update script if/when you update the unicode-range-json depenendency.
 
 ## Related
 
