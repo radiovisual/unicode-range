@@ -1,46 +1,48 @@
 {
-  "name": "unicode-range",
-  "version": "1.0.0",
-  "description": "Get the unicode category range of any unicode value. U+3071 ➝ Hiragana",
-  "license": "MIT",
-  "repository": "radiovisual/unicode-range",
-  "author": {
-    "name": "Michael Wuergler",
-    "email": "wuergler@gmail.com",
-    "url": "numetriclabs.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "xo && tape test.js"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "unicode",
-    "range",
-    "category",
-    "name",
-    "character",
-    "set",
-    "value",
-    "glyph",
-    "family",
-    "collection",
-    "value",
-    "language",
-    "symbol",
-    "symbols",
-    "code"
-  ],
-  "dependencies": {
-    "unicode-range-json": "^1.0.1"
-  },
-  "devDependencies": {
-    "tap-spec": "^4.1.1",
-    "tape": "^4.6.3",
-    "xo": "^0.12.1"
-  }
+	"name": "unicode-range",
+	"version": "1.0.0",
+	"description": "Get the unicode category range of any unicode value. U+3071 ➝ Hiragana",
+	"license": "MIT",
+	"repository": "radiovisual/unicode-range",
+	"author": {
+		"name": "Michael Wuergler",
+		"email": "wuergler@gmail.com"
+	},
+	"type": "module",
+	"engines": {
+		"node": ">=16"
+	},
+	"scripts": {
+		"test": "xo && ava",
+		"lint:fix": "xo --fix",
+		"update": "node scripts/auto-update.js && npm run lint:fix"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"unicode",
+		"range",
+		"category",
+		"name",
+		"character",
+		"set",
+		"value",
+		"glyph",
+		"family",
+		"collection",
+		"value",
+		"language",
+		"symbol",
+		"symbols",
+		"code"
+	],
+	"dependencies": {
+		"unicode-range-json": "^1.0.1"
+	},
+	"devDependencies": {
+		"ava": "^6.1.3",
+		"xo": "^0.58.0"
+	}
 }
